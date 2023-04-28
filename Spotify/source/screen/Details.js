@@ -6,17 +6,13 @@ const DetailScreen = () =>{
     <SafeAreaView style ={style.container}>
       <ScrollView>
         <View>
-          <Image source={require("../../assets/")} style={{height:500, width:300}}></Image>
-          <Image source={require("../../assets/")} style={{height:500, width:300}}></Image>
-          <Image source={require("../../assets/")} style={{height:500, width:300}}></Image>
-          <Image source={require("../../assets/")} style={{height:500, width:300}}></Image>
-          <Image source={require("../../assets/")} style={{height:500, width:300}}></Image>
-          <Image source={require("../../assets/")} style={{height:500, width:300}}></Image>
+         <Text>tovch nomiin details huudas</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
   );
 }
+
 
 
 const style = StyleSheet.create({
@@ -33,4 +29,4 @@ const style = StyleSheet.create({
 });
 
 
-export default DetailScreen 
+export default DetailScreen
