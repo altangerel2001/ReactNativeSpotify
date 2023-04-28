@@ -1,22 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>so we can start?
-      yesx
-      </Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './source/screens/Home';
+import DetailScreen from './source/screens/details';
+import TetailScreen2 from './source/screens/details';
+import { SafeAreaView } from 'react-native-safe-area-context';
+const Stack = createNativeStackNavigator();
+function App() {
+ return (
+ <NavigationContainer>
+    <Stack.Navigator>
+      <Stack.Screen name="НҮҮР" component={HomeScreen} />
+      <Stack.Screen name="Vagobond 1р Бүлэг" component={DetailScreen} />
+      <Stack.Screen name="Berserk 1р Бүлэг" component={TetailScreen2} />
+    </Stack.Navigator>
+ </NavigationContainer>
+ );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App
