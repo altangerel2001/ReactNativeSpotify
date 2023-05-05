@@ -4,15 +4,19 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 const Header = () => {
   return (
     <View>
-    <View>
-        <Text style={style.text}>Good afternoon</Text>
-    </View>
+      <View style={style.text}>
+    <Text style={style.text}>Good afternoon</Text>
+      </View>
     <View style={style.iconCont}>
         <MaterialCommunityIcons style={style.icon} name="bell-outline" size={30} color={"white"}/>
         <MaterialCommunityIcons style={style.icon} name="history" size={30} color={"white"}/>
         <MaterialCommunityIcons style={style.icon} name="cog-outline" size={30} color={"white"}/>
+        
     </View>
+   
     </View>
+   
+
     
   )
 }
@@ -21,19 +25,21 @@ export default Header
 const style = StyleSheet.create({
     topCont:{
         flexDirection:"row",
-        alignItems:"center",
-        paddingTop:40,
-    justifyContent:"space-between",   
+    
  },
     text:{
         color:"white",
-        fontSize:22,
+        fontSize:20,
         fontWeight:"bold",
+        justifyContent:"flex-start",
+       
  },
  iconCont:{
-    flexDirection:"row",
+  flexDirection:"row",
+    alignItem:'stretch',
+    justifyContent:"flex-end"
  },
  icon:{
-    marginLeft:15
+    marginLeft:10
  }
 })
