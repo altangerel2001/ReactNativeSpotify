@@ -3,7 +3,7 @@ import React from 'react'
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons"
 const Header = () => {
   return (
-    <View>
+    <View style={style.head}>
       <View style={style.text}>
     <Text style={style.text}>Good afternoon</Text>
       </View>
@@ -29,7 +29,7 @@ const style = StyleSheet.create({
  },
     text:{
         color:"white",
-        fontSize:20,
+        fontSize:25,
         fontWeight:"bold",
         justifyContent:"flex-start",
        
@@ -41,5 +41,8 @@ const style = StyleSheet.create({
  },
  icon:{
     marginLeft:10
+ },
+ head:{
+ marginTop:50,
  }
 })
