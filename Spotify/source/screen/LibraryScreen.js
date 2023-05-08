@@ -36,61 +36,109 @@ const LibraryScreen = ({ navigation }) => {
 
 
 
-    
+    <SafeAreaView>
       <ScrollView >
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji • mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         </View>
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         </View>
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         </View>
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
+        </View>
+        </View>
+
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         </View>
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         <View style={styles.zurag2}>
         <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
+        </View>
+        </View>
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
+        </View>
+        </View>
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Joji mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
         </View>
         </View>
 
         
       </ScrollView>
+      </SafeAreaView>
   
 
 
@@ -100,7 +148,7 @@ const LibraryScreen = ({ navigation }) => {
 }
     export default LibraryScreen
     const styles = StyleSheet.create({
-    veiw1: {     
+veiw1: {     
         width: 190,     
         height: 100,          
         marginLeft: 10,     
@@ -108,21 +156,23 @@ const LibraryScreen = ({ navigation }) => {
          marginTop:15,
          
          },
-    text: {
+text: {
           color: "white",
           fontSize: 25,
           fontWeight: "bold",
           justifyContent: "flex-start",
     
       },
-    veiw: {
+veiw: {
              flexDirection: "row",
              backgroundColor:"black",
              marginTop:50
      },
-     jijigveiw: {
+jijigveiw: {
       flexDirection: "row",
       backgroundColor:"black",
+      marginTop:15,
+      marginBottom:15,
 },
 veiw4: {
   flexDirection: "row",
@@ -130,21 +180,21 @@ veiw4: {
   justifyContent:"space-evenly"
   
 },
-    veiw2: {
+veiw2: {
       marginLeft: 10,     
        marginTop:15,
       color:"white",
         flexDirection:"row",
           alignItem:'stretch',
     },
-    icon1:{
+icon1:{
       justifyContent:"flex-end",
       marginStart:130
     },
-    icon2:{
+icon2:{
       marginStart:10
     },
-    text1: {
+text1: {
       color: "white",
       fontSize: 13,
       fontWeight: "bold",
@@ -152,7 +202,7 @@ veiw4: {
     
      
   },
-  veiw3: {
+ veiw3: {
       
     flexDirection: "row",
     backgroundColor:"black",
@@ -177,10 +227,16 @@ text3:{
 zurag2:{
   flex: 1,
   overflow:'hidden',
-  minHeight:220,
-  maxHeight:220,
-  maxWidth:160,
+  minHeight:280,
+  maxHeight:280,
+  maxWidth:200,
   marginRight:20,
+},
+text4:{
+  color:"white",
+  marginTop:4,
+  fontWeight:"800"
+
 },
     
 
