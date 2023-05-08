@@ -12,7 +12,6 @@ const SearchScreen = ({ navigation }) => {
       })
   }, [])
 
-
   return (
   
     <ScrollView style={styles.tomveiw}>

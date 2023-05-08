@@ -8,41 +8,90 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 const LibraryScreen = ({ navigation }) => {
   useEffect(() => {
       navigation.setOptions({
-          headerShown: true
+          headerShown: false
       })
   }, [])
 
 
   return (
-<View>
+<View style={styles.tomveiw}>
   <View style={styles.veiw}>
   <MaterialCommunityIcons style={styles.icon} name="alpha-z-circle" size={45} color={'#66FF99'}/>
   <Text style={styles.text}>Your Library </Text>
   <MaterialCommunityIcons style={styles.icon1} name="magnify" size={35} color={'white'}/>
   <MaterialCommunityIcons style={styles.icon2} name="plus" size={35} color={'white'}/>
 
-  
-  <View>
-  <Text style={styles.text}>Your Library </Text>
-  <Text style={styles.text}>Your Library </Text>
-  <Text style={styles.text}>Your Library </Text>
   </View>
-    
-
-
+  <View style={styles.jijigveiw}>
+    <View style={styles.veiw3}>
+  <Text style={styles.text1}>Playlist </Text>
+  </View>
+  <View style={styles.veiw3}>
+  <Text style={styles.text1}>Album</Text>
+  </View>
+  <View style={styles.veiw3}>
+  <Text style={styles.text1}>Artist</Text>
+  </View>
   </View>
 
 
 
-    <SafeAreaView>
-      <ScrollView>
-
     
-     <Image source={require("../albumCovers/billie.jpg")} style={{ height: 1600, width: 1600 }}></Image>
+      <ScrollView >
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        </View>
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        </View>
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        </View>
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        </View>
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text3}>Orion Sun,Thuy,Tory,Lanez and more...</Text>
+        </View>
+        </View>
 
-
+        
       </ScrollView>
-    </SafeAreaView>
+  
 
 
   </View>
@@ -67,11 +116,20 @@ const LibraryScreen = ({ navigation }) => {
     
       },
     veiw: {
-      
              flexDirection: "row",
              backgroundColor:"black",
-             justifyContent:"flex-start"
+             marginTop:50
      },
+     jijigveiw: {
+      flexDirection: "row",
+      backgroundColor:"black",
+},
+veiw4: {
+  flexDirection: "row",
+  backgroundColor:"black",
+  justifyContent:"space-evenly"
+  
+},
     veiw2: {
       marginLeft: 10,     
        marginTop:15,
@@ -85,6 +143,45 @@ const LibraryScreen = ({ navigation }) => {
     },
     icon2:{
       marginStart:10
-    }
+    },
+    text1: {
+      color: "white",
+      fontSize: 13,
+      fontWeight: "bold",
+      marginStart:13,
+    
+     
+  },
+  veiw3: {
+      
+    flexDirection: "row",
+    backgroundColor:"black",
+    alignItems: "center",
+    width: 100,
+    height: 50,
+    backgroundColor: "rgba(51,51,51,0.9)",
+    borderWidth: 10,
+    borderRadius: 100,
+    justifyContent:"space-between"
+},
+tomveiw:{
+  backgroundColor:'black',
+  
+
+},
+text3:{
+  color:"gray",
+  marginTop:4,
+  fontWeight:"800"
+},
+zurag2:{
+  flex: 1,
+  overflow:'hidden',
+  minHeight:220,
+  maxHeight:220,
+  maxWidth:160,
+  marginRight:20,
+},
+    
 
         })
