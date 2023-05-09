@@ -23,8 +23,7 @@ const BANNER_H = 460;
 const PremiumScreen = () => {
 	const scrollA = useRef(new Animated.Value(0)).current;
 	return (
-		<SafeAreaView>
-      
+		<>
 			<StatusBar barStyle="dark-content" />
 			<Animated.ScrollView
 			showsVerticalScrollIndicator={false}
@@ -40,15 +39,24 @@ const PremiumScreen = () => {
 						style={styles.banner(scrollA)}
 						width="100"
 						height={BANNER_H}
-						source={require("../albumcover2/1.jpg")}
-					/>
-					<View>
-         
+						source={require("../albumCovers/billie.jpg")}/>
+					<View style={styles.TextView}>
+						<Text style={styles.title}>
+							Chemical Hearts
+						</Text>
+						<Text style={styles.footer}>
+							Storyline
+							Seventeen-year-old Henry Page (Austin Abrams) has never been in love.
+							He fancies himself a romantic, but the kind of once-in-a-lifetime love he's been hoping for just hasn't happened yet.
+							Then, on the first day of senior year, he meets transfer student Grace Town (Lili Reinhart) and it seems all that is about to change.
+							When Grace and Henry are chosen to co-edit the school paper,
+							he is immediately drawn to the mysterious newcomer.
+							As he learns the heartbreaking secret that has changed her life, he finds himself falling in love with her - or at least the person he thinks she is.
+							</Text>
 					</View>
 				</View>
 			</Animated.ScrollView>
-   
-		</SafeAreaView>
+		</>
 	);
 };
 
