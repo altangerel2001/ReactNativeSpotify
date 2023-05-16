@@ -40,98 +40,98 @@ const LibraryScreen = ({ navigation }) => {
       <ScrollView >
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Image source={require("../albumcover2/10.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
+        <Text style={styles.text3}>Kendrick</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumCover3/joji.jpg")} style={{ height: 180, width: 180,  }}></Image>
         <Text style={styles.text4}>Joji • mix</Text>
         <Text style={styles.text3}>Vande mix</Text>
         </View>
+        </View>
+        <View style={styles.veiw4}>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
+        <Image source={require("../albumcover2/12.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>21 Savage • mix</Text>
+        <Text style={styles.text3}>Savage</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/2.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Weeknd • mix</Text>
+        <Text style={styles.text3}>Weeknd</Text>
         </View>
         </View>
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
+        <Image source={require("../albumcover2/5.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick • mix</Text>
+        <Text style={styles.text3}>Damn</Text>
         </View>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
+        <Image source={require("../albumcover2/7.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Travis scott • mix</Text>
+        <Text style={styles.text3}>Travis Drug</Text>
         </View>
         </View>
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
+        <Image source={require("../albumcover2/3.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>TV Rock • mix</Text>
+        <Text style={styles.text3}>TV Goorl</Text>
         </View>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
-        </View>
-        </View>
-        <View style={styles.veiw4}>
-        <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
-        </View>
-        <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
+        <Image source={require("../albumcover2/9.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
+        <Text style={styles.text3}>Lamar</Text>
         </View>
         </View>
 
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
+        <Image source={require("../albumcover2/5.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
         <Text style={styles.text3}>Vande mix</Text>
         </View>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
-        </View>
-        </View>
-        <View style={styles.veiw4}>
-        <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
-        <Text style={styles.text3}>Vande mix</Text>
-        </View>
-        <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
+        <Image source={require("../albumcover2/7.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
         <Text style={styles.text3}>Vande mix</Text>
         </View>
         </View>
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
+        <Image source={require("../albumcover2/8.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
         <Text style={styles.text3}>Vande mix</Text>
         </View>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
+        <Image source={require("../albumcover2/2.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
         <Text style={styles.text3}>Vande mix</Text>
         </View>
         </View>
         <View style={styles.veiw4}>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
+        <Image source={require("../albumcover2/10.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
         <Text style={styles.text3}>Vande mix</Text>
         </View>
         <View style={styles.zurag2}>
-        <Image source={require("../albumcover2/1.jpg")} style={{ height: 180, width: 180,  }}></Image>
-        <Text style={styles.text4}>Joji mix</Text>
+        <Image source={require("../albumcover2/2.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
+        </View>
+        </View>
+        <View style={styles.veiw4}>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/6.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
+        <Text style={styles.text3}>Vande mix</Text>
+        </View>
+        <View style={styles.zurag2}>
+        <Image source={require("../albumcover2/2.jpg")} style={{ height: 180, width: 180,  }}></Image>
+        <Text style={styles.text4}>Kendrick Lamar • mix</Text>
         <Text style={styles.text3}>Vande mix</Text>
         </View>
         </View>

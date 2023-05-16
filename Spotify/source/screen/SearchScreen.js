@@ -211,6 +211,149 @@ const SearchScreen = ({ navigation }) => {
      </View>
      </LinearGradient>
 
+     <LinearGradient
+      colors={['white', 'red', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+ <LinearGradient
+      colors={['black', 'white', 'red']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['pink', 'red', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'brown', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'orange', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'yellow', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'green', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'black', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'gray', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'pink', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'green', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['black', 'purple', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['pink', 'white', 'pink']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     <LinearGradient
+      colors={['white', 'red', 'red']} 
+      start={{ x: 0, y: 0 }} 
+      end={{ x: 1, y: 2 }} 
+      style={styles.veiw1} 
+    >
+    <View style={styles.veiw1}>           
+          <Text style={styles.text2}>Soft-Rock</Text>   
+     </View>
+     </LinearGradient>
+     
+     
+
 
 
      
